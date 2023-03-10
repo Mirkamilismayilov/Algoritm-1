@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 20vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+button{
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(102, 255, 0);
+    cursor: pointer;
+}
